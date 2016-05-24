@@ -1,0 +1,35 @@
+{
+  "name": "hashtag-from-hex-bot",
+  "version": "0.1.0",
+  "description": "A twitter bot that replies to pictures with hashtags of the hexadecimal colors found in the picture",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node bin/serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grahamallen/hashtag-from-hex-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "computer",
+    "vision",
+    "color",
+    "theory"
+  ],
+  "author": "Graham Allen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grahamallen/hashtag-from-hex-bot/issues"
+  },
+  "homepage": "https://github.com/grahamallen/hashtag-from-hex-bot",
+  "dependencies": {
+    "color-thief": "^2.2.2",
+    "express": "^4.13.4",
+    "jimp": "^0.2.24",
+    "nodemon": "^1.9.1",
+    "rgb-hex": "^1.0.0",
+    "twit": "^2.2.3"
+  }
+}
