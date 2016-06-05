@@ -21,7 +21,7 @@ build/Release
 node_modules
 
 # Api configs
-bin/config.json
+bin/config.js
 
 # Optional npm cache directory
 .npm
