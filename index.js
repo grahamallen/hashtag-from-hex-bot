@@ -1,1 +1,1 @@
-module.exports = require('./lib/hashHexApp')
+module.exports = require('./lib/hashHex')
