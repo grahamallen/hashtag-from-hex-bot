@@ -9,11 +9,14 @@ function debug(id) {
     if (err) { console.log(err) }
 
     hashHex.processTweet(data).then(function(processedMedia) {
-      var metaData = processedMedia.shift()
-      hashHex.replyQueue.push(metaData)
-      hashHex.replyToTweet()
+      //var metaData = processedMedia.shift()
+      //hashHex.replyQueue.push(metaData)
+      //hashHex.replyToTweet()
+      console.log(processedMedia)
     }).catch(console.error)
   })
 }
 
-debug('740683288688373760')*/
+debug('740683288688373760')
+//debug('741536473770385408')
+*/
